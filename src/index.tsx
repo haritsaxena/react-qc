@@ -6,13 +6,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import ToDoAppAdv from './State/ToDoAppAdv';
 import IntervalTimer from './Effects/IntervalTimer';
+import Countdown from './Effects/Countdown';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <IntervalTimer />
+    <Countdown />
   </React.StrictMode>
 );
 
