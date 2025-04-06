@@ -4,14 +4,15 @@ import './index.css';
 //import App from './App';
 //import Counter from './Counter';
 import reportWebVitals from './reportWebVitals';
-import ToDoAppAdv from './ToDoAppAdv';
+//import ToDoAppAdv from './State/ToDoAppAdv';
+import IntervalTimer from './Effects/IntervalTimer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ToDoAppAdv />
+    <IntervalTimer />
   </React.StrictMode>
 );
 

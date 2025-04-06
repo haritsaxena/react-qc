@@ -1,7 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Component, Fragment } from "react";
+import { Fragment } from "react";
 
 
 function Link(props: any) {
